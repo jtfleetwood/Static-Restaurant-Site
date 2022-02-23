@@ -14,8 +14,8 @@ body {
 #logo-img {
     background: url('../images/mama-chows.png') no-repeat;
     background-size: cover;
-    width: 200px;
-    height: 150px;
+    width: 125px;
+    height: 100px;
     margin: 10px 15px 10px 50px;
     border-radius: 50%;
 }
@@ -57,4 +57,45 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
     font-weight: bold;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    text-align: right;
+    padding-right: 15px;
+    color: #557c3e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
 }
